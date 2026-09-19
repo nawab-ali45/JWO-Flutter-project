@@ -1,0 +1,37 @@
+# ─── Flutter/Dart ─────────────────────────────
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.idea/
+.vscode/
+
+# ─── Firebase Config (contains API keys!) ─────
+firebase_options.dart
+google-services.json
+GoogleService-Info.plist
+
+# ─── Sensitive Files ──────────────────────────
+.env
+.env.*
+*.env
+secrets/
+*.log
+*.bak
+
+# ─── Signing Keys ─────────────────────────────
+key.properties
+*.jks
+*.keystore
+
+# ─── OS Files ─────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Build Output ─────────────────────────────
+*.apk
+*.aab
+*.dill
+*.so

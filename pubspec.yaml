@@ -1,0 +1,40 @@
+name: jwo_welfare_app
+description: Jalal Welfare Organization - Welfare Management System
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase - using versions that are known to work together
+  firebase_core: ^3.9.0
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.6.0
+  firebase_storage: ^12.3.4
+
+  # Utilities
+  intl: ^0.19.0
+  image_picker: ^1.0.7
+  url_launcher: ^6.2.0
+  file_picker: 10.3.8
+  http: ^1.1.0
+  path_provider: ^2.1.0
+  gal: ^2.3.2
+  universal_html: ^2.3.0
+
+  # UI
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/ali.jpeg
